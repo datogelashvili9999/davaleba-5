@@ -8,6 +8,7 @@ body{
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 100;
 
 }
 
@@ -39,11 +40,10 @@ body{
 	width: 1170px;
 	margin-top: 88px;
 	margin-left: 140px;
-
 }
 
  .article-1{
-/* 	width: 360px;*/
+ 	width: 360px;
  	display: inline-block;
  	vertical-align: top;
  	margin-right: 40px;
@@ -75,9 +75,8 @@ body{
 .section-1-photo{
 	margin-top: 27px;
 	padding-bottom: 65px;
-	
-	
 }
+
 .section-1-text{
 	width: 280PX;
 	color: #A6ADB4;
@@ -114,3 +113,58 @@ body{
 }
 
 /*section 1 end*/
+
+/*section 2 start*/
+
+.section-2-container{
+	width: 1170px;
+	margin-top: 88px;
+	margin-left: 140px;
+
+}
+
+.section-2-header{
+	font-size:24px ;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.relative-1{
+	width: 760px;
+	height: 430px;
+	margin: 40px 40px 40px 0;
+	position: relative;
+
+
+}
+
+.absolute-1{
+	width: 180px;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.article-4{
+	height: 900px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.article-5{
+	width: 360px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+}
+.imags{
+	margin-bottom:102px ;
+}
+
+/*section 2 end*/
+
